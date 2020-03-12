@@ -48,3 +48,10 @@ Please see [DBpedia Spotlight Contribute Guide](https://github.com/dbpedia-spotl
 ## Maintainers
 
 <a href="http://infai.org"><img src="https://infai.org/wp-content/uploads/2017/08/InfAI-Logo.png" align="left" height="20%" width="20%" >Institut für Angewandte Informatik e. V. und InfAI Management GmbH</a>
+
+## Building the docker for English
+Use the specific Dockerfile for English to build a docker image. 
+E.g. build the English spotlight named `english_spotlight` and tagged `latest` run the following:
+```
+docker build -f Dockerfile-en  -t english_spotlight:latest . 
+```
